@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Hi There!"
+        android:textColor="#895891"
+        android:textSize="34sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:hint="Email or username"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#895891"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="Sign in"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/dont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="serif"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>
